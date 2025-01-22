@@ -6,3 +6,20 @@
 	--color--background: red;
 }
 
+header {
+	background-color: blue;
+	padding-block: calc(5 * var(--base-size));
+}
+.gutters {
+	padding-inline: var(--gutter-size);
+}
+footer {
+	background-color: var(--color--secondary);
+	padding-top: var(--base-size);
+	padding-bottom: calc(5 * var(--base-size));
+}
+
+#main-content {
+	/* The block size tag below is a life changer */
+	block-size: 75vh;
+}
