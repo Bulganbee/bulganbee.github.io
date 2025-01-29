@@ -27,6 +27,7 @@ h2 {
 
 video {
 	width: 500px;
+	height: 340px;
 }
 footer {
 	background-color: var(--color--secondary);
@@ -38,8 +39,10 @@ footer {
 .title {
 	font-size: calc(var(--base-size)* 1.5);
 	margin-top: 10px;
+	margin-left: 10px;
 }
 .description {
+	margin-left: 10px;
 	margin-top: 10px;
 	font-size: calc(var(--base-size)* 1.1);
 	width: 45ch;
