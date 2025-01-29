@@ -19,6 +19,11 @@ h2 {
 .main-content {
 	padding-inline: var(--gutter-size);
 }
+#main-content {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+}
 
 video {
 	width: 500px;
