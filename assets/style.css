@@ -28,9 +28,9 @@ h2 {
 
 video {
 	display: block;
-	margin: 30px; 
+	margin: 30px auto; 
 	max-width: 60%;
-	height: auto; 
+	height: auto;
 }
 footer {
 	background-color: var(--color--secondary);
@@ -48,7 +48,8 @@ footer {
 	margin-left: 10px;
 	margin-top: 10px;
 	font-size: calc(var(--base-size)* 1.1);
-	width: 45ch;
+	width: auto;
+	margin: 30px auto; 
 }
 #main-content {
 	/* The block size tag below is a life changer */
