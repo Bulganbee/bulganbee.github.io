@@ -20,15 +20,17 @@ h2 {
 	padding-inline: var(--gutter-size);
 }
 #main-content {
-	display: flex;
-	flex-direction: row;
+	/* display: flex;
+	flex-direction: row; */
 	gap: 4px;
 	align-items: center;
 }
 
 video {
-	width: 500px;
-	height: 340px;
+	display: block;
+	margin: 30px; 
+	max-width: 60%;
+	height: auto; 
 }
 footer {
 	background-color: var(--color--secondary);
