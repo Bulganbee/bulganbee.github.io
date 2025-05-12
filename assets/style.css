@@ -5,12 +5,19 @@
 	--color--secondary: gold; 
 	--color--background: red;
 }
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	background-color: #f9f9f9;
+	color: #333;
+	line-height: 1.6;
+  }
 
 header {
 	padding-block: calc(5 * var(--base-size));
 	text-align: center;
 	width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 
 }
 h1 {
@@ -19,17 +26,17 @@ h1 {
 h2 {
 	font-size: calc(var(--base-size)* 1.7);
 }
-video {
+/* video {
 	width: 70%;
-}
+} */
 img {
-	width: 80%;
+	width: 90%;
 }
 section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
 	text-align: center;
-	padding: 50px;
+	/* padding: 50px; */
 	align-items: center;
 	justify-content: center;
 }
