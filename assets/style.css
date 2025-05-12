@@ -14,11 +14,9 @@ body {
   }
   .top-nav {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 32px;
-	background-color: #ffffff;
-	flex-wrap: wrap;
+  	justify-content: flex-end;
+  	padding: 16px 32px;
+  	background-color: #ffffff;
   }
   .nav-links a {
 	margin-left: 24px;
@@ -29,7 +27,6 @@ body {
 	border-radius: 8px;
 	transition: 0.7s ease;
   }  
-
   header {
 	text-align: center;
 	padding: 48px 32px;
@@ -49,7 +46,7 @@ h1 {
 	font-size: calc(var(--base-size)* 3);
 }
 h2 {
-	font-size: calc(var(--base-size)* 1.7);
+	font-size: calc(var(--base-size)* 1.1);
 }
 /* video {
 	width: 70%;
@@ -77,7 +74,7 @@ section {
 	background: #fff;
  	border-radius: 4px;
   	padding: 18px;
-  	text-align: center;
+  	text-align: start;
   	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #main-2 {
