@@ -3,9 +3,10 @@
 The projects in this website were all done in Typography and Interaction program led by professors Michael Fehrenbach, Eric Lee, and Rijk van Zanten from 2024 fall to 2025 spring.</p>
 <h2>What I learned</h2>
 <ul>
-  <li>HTML</li>
-   <li>HTML</li>
-   <li>HTML</li>
+  <li>HTML, CSS, and Javascript.</li>
+   <li>Coding responsive design.</li>
+   <li>How to present coding projects.</li>
+  <li>History of code and typography.</li>
 </ul>
 
 
