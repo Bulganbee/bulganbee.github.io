@@ -134,4 +134,13 @@ section video:hover {
   		  overflow: hidden;
   		  position: relative;
 	}
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		text-align: center;
+		padding: 40px 10px;
+		font-size: 14px;
+	}
 }
