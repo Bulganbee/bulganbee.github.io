@@ -55,16 +55,23 @@ h2 {
 	width: 70%;
 } */
 img {
-	width: 90%;
-}
+	transition: transform 0.3s ease;
+ 	display: block;
+ 	width: 100%;
+    height: auto;
+	}
 section {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-	gap: 32px;
-	padding: 48px 32px;
+	/* gap: 32px; */
+	padding: 12px 10px;
   }
-#main-1:hover {
-	transform: translateY(-5px);
+
+.image-container {
+	overflow: hidden;
+}
+#main-1 img:hover {
+	transform: scale(1.1);
 }
 #main-1 {
 	background: #fff;
