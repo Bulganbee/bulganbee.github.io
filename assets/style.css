@@ -48,9 +48,12 @@ h1 {
 h2 {
 	font-size: calc(var(--base-size)* 1.1);
 }
-/* video {
-	width: 70%;
-} */
+video {
+	transition: transform 0.3s ease;
+ 	display: block;
+ 	width: 100%;
+    height: auto;
+}
 img {
 	transition: transform 0.3s ease;
  	display: block;
@@ -67,7 +70,10 @@ section {
 .image-container {
 	overflow: hidden;
 }
-#main-1 img:hover {
+section img:hover {
+	transform: scale(1.1);
+}
+section video:hover {
 	transform: scale(1.1);
 }
 #main-1 {
@@ -78,7 +84,11 @@ section {
   	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #main-2 {
-	background-color: rgb(83, 145, 145);
+	background: #fff;
+ 	border-radius: 4px;
+  	padding: 18px;
+  	text-align: start;
+  	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #main-3 {
 	background-color: rgb(99, 236, 236);
