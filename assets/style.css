@@ -9,6 +9,9 @@
 header {
 	padding-block: calc(5 * var(--base-size));
 	text-align: center;
+	width: 100%;
+    min-height: 100vh;
+
 }
 h1 {
 	font-size: calc(var(--base-size)* 3);
@@ -16,10 +19,19 @@ h1 {
 h2 {
 	font-size: calc(var(--base-size)* 1.7);
 }
-
+video {
+	width: 70%;
+}
+img {
+	width: 80%;
+}
 section {
     width: 100%;
     min-height: 100vh;
+	text-align: center;
+	padding: 50px;
+	align-items: center;
+	justify-content: center;
 }
 
 #main-1 {
